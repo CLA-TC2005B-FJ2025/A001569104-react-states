@@ -6,7 +6,7 @@ export function App() {
   // Si quieres que tu aplicación cambie algo que se ve en pantalla cuando sucede algún evento, hay que usar State  
   // Datos y setter, para cualquier tipo de dato, siempre usar el setter para cambiar
   // setter -> rerender component
-  const [ contador, ponContador ] = useState( 8 );
+  const [ contador, ponContador ] = useState( 8 ); //variable -> contador + ponContador ->setter.  useState y 8 es poner el estado inicial
 
   const handleClick = () => {
     console.log("Button clicked!");
